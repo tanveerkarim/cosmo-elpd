@@ -1,0 +1,967 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) gentoo/2023
+==========================================
+Job started at Tue 09 Jun 2026 05:25:15 PM EDT
+Running on node(s): tri0063
+Job ID: 1747118
+==========================================
+Sweeping stale lock files...
+find: ‘/scratch/tanveerk/bayesian-model-workspace/chains/nested/desy5_bbn_lcdm/’: No such file or directory
+Cleanup complete.
+Starting PolyChord run at Tue 09 Jun 2026 05:25:15 PM EDT
+[0 : output] Output to be read-from/written-into folder '/scratch/tanveerk/bayesian-model-workspace/chains/nested/desy5_bbn_lcdm', with prefix ''
+[0 : camb] `camb` module loaded successfully from /project/def-rhlozek/tanveerk/vEnvs/stats/lib/python3.13/site-packages/camb
+[0 : bao.desi_dr2] Initialized.
+[1 : bao.desi_dr2] Initialized.
+[2 : bao.desi_dr2] Initialized.
+[5 : bao.desi_dr2] Initialized.
+[7 : bao.desi_dr2] Initialized.
+[11 : bao.desi_dr2] Initialized.
+[13 : bao.desi_dr2] Initialized.
+[15 : bao.desi_dr2] Initialized.
+[19 : bao.desi_dr2] Initialized.
+[23 : bao.desi_dr2] Initialized.
+[35 : bao.desi_dr2] Initialized.
+[83 : bao.desi_dr2] Initialized.
+[163 : bao.desi_dr2] Initialized.
+[3 : bao.desi_dr2] Initialized.
+[51 : bao.desi_dr2] Initialized.
+[67 : bao.desi_dr2] Initialized.
+[99 : bao.desi_dr2] Initialized.
+[39 : bao.desi_dr2] Initialized.
+[47 : bao.desi_dr2] Initialized.
+[31 : bao.desi_dr2] Initialized.
+[55 : bao.desi_dr2] Initialized.
+[147 : bao.desi_dr2] Initialized.
+[119 : bao.desi_dr2] Initialized.
+[95 : bao.desi_dr2] Initialized.
+[159 : bao.desi_dr2] Initialized.
+[183 : bao.desi_dr2] Initialized.
+[21 : bao.desi_dr2] Initialized.
+[25 : bao.desi_dr2] Initialized.
+[53 : bao.desi_dr2] Initialized.
+[87 : bao.desi_dr2] Initialized.
+[17 : bao.desi_dr2] Initialized.
+[117 : bao.desi_dr2] Initialized.
+[33 : bao.desi_dr2] Initialized.
+[131 : bao.desi_dr2] Initialized.
+[37 : bao.desi_dr2] Initialized.
+[49 : bao.desi_dr2] Initialized.
+[89 : bao.desi_dr2] Initialized.
+[57 : bao.desi_dr2] Initialized.
+[97 : bao.desi_dr2] Initialized.
+[9 : bao.desi_dr2] Initialized.
+[22 : bao.desi_dr2] Initialized.
+[14 : bao.desi_dr2] Initialized.
+[6 : bao.desi_dr2] Initialized.
+[10 : bao.desi_dr2] Initialized.
+[26 : bao.desi_dr2] Initialized.
+[74 : bao.desi_dr2] Initialized.
+[41 : bao.desi_dr2] Initialized.
+[43 : bao.desi_dr2] Initialized.
+[42 : bao.desi_dr2] Initialized.
+[58 : bao.desi_dr2] Initialized.
+[138 : bao.desi_dr2] Initialized.
+[105 : bao.desi_dr2] Initialized.
+[137 : bao.desi_dr2] Initialized.
+[181 : bao.desi_dr2] Initialized.
+[73 : bao.desi_dr2] Initialized.
+[27 : bao.desi_dr2] Initialized.
+[139 : bao.desi_dr2] Initialized.
+[59 : bao.desi_dr2] Initialized.
+[75 : bao.desi_dr2] Initialized.
+[169 : bao.desi_dr2] Initialized.
+[18 : bao.desi_dr2] Initialized.
+[187 : bao.desi_dr2] Initialized.
+[143 : bao.desi_dr2] Initialized.
+[165 : bao.desi_dr2] Initialized.
+[79 : bao.desi_dr2] Initialized.
+[123 : bao.desi_dr2] Initialized.
+[175 : bao.desi_dr2] Initialized.
+[86 : bao.desi_dr2] Initialized.
+[111 : bao.desi_dr2] Initialized.
+[118 : bao.desi_dr2] Initialized.
+[54 : bao.desi_dr2] Initialized.
+[101 : bao.desi_dr2] Initialized.
+[106 : bao.desi_dr2] Initialized.
+[158 : bao.desi_dr2] Initialized.
+[145 : bao.desi_dr2] Initialized.
+[90 : bao.desi_dr2] Initialized.
+[30 : bao.desi_dr2] Initialized.
+[154 : bao.desi_dr2] Initialized.
+[81 : bao.desi_dr2] Initialized.
+[94 : bao.desi_dr2] Initialized.
+[62 : bao.desi_dr2] Initialized.
+[46 : bao.desi_dr2] Initialized.
+[78 : bao.desi_dr2] Initialized.
+[182 : bao.desi_dr2] Initialized.
+[177 : bao.desi_dr2] Initialized.
+[126 : bao.desi_dr2] Initialized.
+[190 : bao.desi_dr2] Initialized.
+[115 : bao.desi_dr2] Initialized.
+[161 : bao.desi_dr2] Initialized.
+[38 : bao.desi_dr2] Initialized.
+[50 : bao.desi_dr2] Initialized.
+[63 : bao.desi_dr2] Initialized.
+[110 : bao.desi_dr2] Initialized.
+[174 : bao.desi_dr2] Initialized.
+[45 : bao.desi_dr2] Initialized.
+[155 : bao.desi_dr2] Initialized.
+[107 : bao.desi_dr2] Initialized.
+[71 : bao.desi_dr2] Initialized.
+[135 : bao.desi_dr2] Initialized.
+[142 : bao.desi_dr2] Initialized.
+[34 : bao.desi_dr2] Initialized.
+[103 : bao.desi_dr2] Initialized.
+[113 : bao.desi_dr2] Initialized.
+[20 : bao.desi_dr2] Initialized.
+[121 : bao.desi_dr2] Initialized.
+[162 : bao.desi_dr2] Initialized.
+[179 : bao.desi_dr2] Initialized.
+[178 : bao.desi_dr2] Initialized.
+[150 : bao.desi_dr2] Initialized.
+[185 : bao.desi_dr2] Initialized.
+[4 : bao.desi_dr2] Initialized.
+[167 : bao.desi_dr2] Initialized.
+[153 : bao.desi_dr2] Initialized.
+[125 : bao.desi_dr2] Initialized.
+[171 : bao.desi_dr2] Initialized.
+[114 : bao.desi_dr2] Initialized.
+[170 : bao.desi_dr2] Initialized.
+[109 : bao.desi_dr2] Initialized.
+[61 : bao.desi_dr2] Initialized.
+[191 : bao.desi_dr2] Initialized.
+[91 : bao.desi_dr2] Initialized.
+[133 : bao.desi_dr2] Initialized.
+[77 : bao.desi_dr2] Initialized.
+[82 : bao.desi_dr2] Initialized.
+[93 : bao.desi_dr2] Initialized.
+[98 : bao.desi_dr2] Initialized.
+[189 : bao.desi_dr2] Initialized.
+[146 : bao.desi_dr2] Initialized.
+[29 : bao.desi_dr2] Initialized.
+[112 : bao.desi_dr2] Initialized.
+[48 : bao.desi_dr2] Initialized.
+[127 : bao.desi_dr2] Initialized.
+[40 : bao.desi_dr2] Initialized.
+[136 : bao.desi_dr2] Initialized.
+[176 : bao.desi_dr2] Initialized.
+[148 : bao.desi_dr2] Initialized.
+[66 : bao.desi_dr2] Initialized.
+[16 : bao.desi_dr2] Initialized.
+[160 : bao.desi_dr2] Initialized.
+[134 : bao.desi_dr2] Initialized.
+[157 : bao.desi_dr2] Initialized.
+[52 : bao.desi_dr2] Initialized.
+[100 : bao.desi_dr2] Initialized.
+[69 : bao.desi_dr2] Initialized.
+[8 : bao.desi_dr2] Initialized.
+[70 : bao.desi_dr2] Initialized.
+[64 : bao.desi_dr2] Initialized.
+[168 : bao.desi_dr2] Initialized.
+[102 : bao.desi_dr2] Initialized.
+[104 : bao.desi_dr2] Initialized.
+[186 : bao.desi_dr2] Initialized.
+[56 : bao.desi_dr2] Initialized.
+[96 : bao.desi_dr2] Initialized.
+[140 : bao.desi_dr2] Initialized.
+[141 : bao.desi_dr2] Initialized.
+[128 : bao.desi_dr2] Initialized.
+[88 : bao.desi_dr2] Initialized.
+[184 : bao.desi_dr2] Initialized.
+[132 : bao.desi_dr2] Initialized.
+[65 : bao.desi_dr2] Initialized.
+[124 : bao.desi_dr2] Initialized.
+[84 : bao.desi_dr2] Initialized.
+[122 : bao.desi_dr2] Initialized.
+[80 : bao.desi_dr2] Initialized.
+[28 : bao.desi_dr2] Initialized.
+[44 : bao.desi_dr2] Initialized.
+[32 : bao.desi_dr2] Initialized.
+[180 : bao.desi_dr2] Initialized.
+[152 : bao.desi_dr2] Initialized.
+[72 : bao.desi_dr2] Initialized.
+[156 : bao.desi_dr2] Initialized.
+[85 : bao.desi_dr2] Initialized.
+[36 : bao.desi_dr2] Initialized.
+[108 : bao.desi_dr2] Initialized.
+[172 : bao.desi_dr2] Initialized.
+[116 : bao.desi_dr2] Initialized.
+[151 : bao.desi_dr2] Initialized.
+[166 : bao.desi_dr2] Initialized.
+[120 : bao.desi_dr2] Initialized.
+[60 : bao.desi_dr2] Initialized.
+[76 : bao.desi_dr2] Initialized.
+[12 : bao.desi_dr2] Initialized.
+[144 : bao.desi_dr2] Initialized.
+[68 : bao.desi_dr2] Initialized.
+[24 : bao.desi_dr2] Initialized.
+[130 : bao.desi_dr2] Initialized.
+[188 : bao.desi_dr2] Initialized.
+[129 : bao.desi_dr2] Initialized.
+[164 : bao.desi_dr2] Initialized.
+[173 : bao.desi_dr2] Initialized.
+[92 : bao.desi_dr2] Initialized.
+[149 : bao.desi_dr2] Initialized.
+[0 : planck_2018_lensing.clik] `clipy` module loaded successfully from /scratch/tanveerk/cobaya-external-desy5/code/planck/clipy/clipy
+----
+clipy_0.15
+Checking likelihood '/scratch/tanveerk/cobaya-external-desy5/data/planck_2018/baseline/plc_3.0/lensing/smicadx12_Dec5_ftl_mv2_ndclpp_p_teb_consext8.clik_lensing' on test data. got -4.42102
+----
+[0 : planck_2018_highl_camspec2021.ttteee] L-range for 143x143: 30 2000
+[0 : planck_2018_highl_camspec2021.ttteee] L-range for 217x217: 500 2500
+[0 : planck_2018_highl_camspec2021.ttteee] L-range for 143x217: 500 2500
+[0 : planck_2018_highl_camspec2021.ttteee] L-range for TE: 30 2000
+[0 : planck_2018_highl_camspec2021.ttteee] L-range for EE: 30 2000
+[0 : planck_2018_highl_camspec2021.ttteee] Number of data points: 9915
+[0 : polychord] `pypolychord` module loaded successfully from /scratch/tanveerk/cobaya-external-desy5/code/PolyChordLite/build/lib.linux-x86_64-cpython-313/pypolychord
+[0 : polychord] Storing raw PolyChord output in '/scratch/tanveerk/bayesian-model-workspace/chains/nested/desy5_bbn_lcdm/polychord_raw'.
+[0 : model] Measuring speeds... (this may take a few seconds)
+[0 : model] Setting measured speeds (per sec): {sn.desy5: 706.0, bao.desi_dr2: 842.0, planck_2018_lowl.TT: 1660.0, planck_2018_lowl.EE: 8630.0, planck_2018_lensing.clik: 3050.0, planck_2018_highl_CamSpec2021.TTTEEE: 86.7, camb.transfers: 0.379, camb: 0.834}
+[0 : polychord] Parameter blocks and their oversampling factors:
+[0 : polychord] *  1 : ['H0', 'ombh2', 'omch2', 'tau']
+[0 : polychord] *  1 : ['logA', 'ns']
+[0 : polychord] *  9 : ['A_planck']
+[0 : polychord] * 10 : ['amp_143', 'amp_217', 'amp_143x217', 'n_143', 'n_217', 'n_143x217', 'calTE', 'calEE']
+[0 : prior] *WARNING* There are unbounded parameters (['calTE', 'A_planck', 'calEE']). Prior bounds are given at 0.9999995 confidence level. Beware of likelihood modes at the edge of the prior
+[0 : polychord] Calling PolyChord...
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+PolyChord: MPI is already initilised, not initialising, and will not finalize
+
+PolyChord: Next Generation Nested Sampling
+copyright: Will Handley, Mike Hobson & Anthony Lasenby
+  version: 1.20.1
+  release: 1st June 2021
+    email: wh260@mrao.cam.ac.uk
+
+Run Settings
+nlive    :    1000
+nDims    :      15
+nDerived :      18
+Doing Clustering
+Synchronous parallelisation
+Generating equally weighted posteriors
+Generating weighted posteriors
+Clustering on posteriors
+Writing a resume file to /scratch/tanveerk/bayesian-model-workspace/chains/nested/desy5_bbn_lcdm/polychord_raw/.resume
+
+generating live points
+
+
+all live points generated
+
+number of repeats:           12           6          27         240
+started sampling
+
+___________________
+lives      |  1000 |
+phantoms   |107382 |
+posteriors |  1166 |
+equals     |     1 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                1207
+nposterior =                1166
+nequals    =                   1
+nlike      =                9937                4074               18381              165277
+<nlike>    =           8.25           4.07          18.38         165.28   (           0.69           0.68           0.68           0.69 per slice )
+log(Z)     =       -15210.64 +/-  0.81
+log(Z_1)   =       -15210.64 +/-  0.81 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |219853 |
+posteriors |  2167 |
+equals     |     1 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                2296
+nposterior =                2167
+nequals    =                   3
+nlike      =               36259               17549               79971              724591
+<nlike>    =          26.32          13.47          61.59         559.31   (           2.19           2.25           2.28           2.33 per slice )
+log(Z)     =       -11268.92 +/-  0.58
+log(Z_1)   =       -11268.92 +/-  0.58 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |262208 |
+posteriors |  3168 |
+equals     |     3 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                3390
+nposterior =                3168
+nequals    =                   3
+nlike      =               64030               31959              145251             1324411
+<nlike>    =          27.77          14.41          65.28         599.82   (           2.31           2.40           2.42           2.50 per slice )
+log(Z)     =        -9459.59 +/-  0.54
+log(Z_1)   =        -9459.59 +/-  0.54 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |272827 |
+posteriors |  4169 |
+equals     |     2 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                4489
+nposterior =                4169
+nequals    =                   1
+nlike      =               92830               46839              213532             1947833
+<nlike>    =          28.80          14.88          68.28         623.42   (           2.40           2.48           2.53           2.60 per slice )
+log(Z)     =        -8386.99 +/-  0.73
+log(Z_1)   =        -8386.99 +/-  0.73 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |283623 |
+posteriors |  5170 |
+equals     |     3 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                5578
+nposterior =                5170
+nequals    =                   2
+nlike      =              122720               62135              283893             2589402
+<nlike>    =          29.89          15.30          70.36         641.57   (           2.49           2.55           2.61           2.67 per slice )
+log(Z)     =        -7726.57 +/-  0.46
+log(Z_1)   =        -7726.57 +/-  0.46 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |298774 |
+posteriors |  6171 |
+equals     |     2 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                6667
+nposterior =                6171
+nequals    =                   1
+nlike      =              153598               77735              355989             3248905
+<nlike>    =          30.88          15.60          72.10         659.50   (           2.57           2.60           2.67           2.75 per slice )
+log(Z)     =        -7314.39 +/-  0.62
+log(Z_1)   =        -7314.39 +/-  0.62 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |290718 |
+posteriors |  7172 |
+equals     |     4 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                7762
+nposterior =                7172
+nequals    =                   6
+nlike      =              185642               93978              430398             3929959
+<nlike>    =          32.04          16.24          74.41         681.05   (           2.67           2.71           2.76           2.84 per slice )
+log(Z)     =        -7007.40 +/-  0.36
+log(Z_1)   =        -7007.40 +/-  0.36 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |285095 |
+posteriors |  8173 |
+equals     |    10 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                8849
+nposterior =                8173
+nequals    =                   4
+nlike      =              218541              110593              506747             4628632
+<nlike>    =          32.90          16.62          76.35         698.67   (           2.74           2.77           2.83           2.91 per slice )
+log(Z)     =        -6795.31 +/-  0.30
+log(Z_1)   =        -6795.31 +/-  0.30 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |295258 |
+posteriors |  9174 |
+equals     |    10 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =                9928
+nposterior =                9174
+nequals    =                  11
+nlike      =              252472              127373              584644             5337696
+<nlike>    =          33.93          16.78          77.90         709.06   (           2.83           2.80           2.89           2.95 per slice )
+log(Z)     =        -6651.30 +/-  0.28
+log(Z_1)   =        -6651.30 +/-  0.28 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |291996 |
+posteriors | 10175 |
+equals     |     9 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               11022
+nposterior =               10175
+nequals    =                   6
+nlike      =              287742              145019              666926             6081390
+<nlike>    =          35.27          17.65          82.28         743.69   (           2.94           2.94           3.05           3.10 per slice )
+log(Z)     =        -6540.70 +/-  0.24
+log(Z_1)   =        -6540.70 +/-  0.24 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |290883 |
+posteriors | 11176 |
+equals     |    17 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               12131
+nposterior =               11176
+nequals    =                  15
+nlike      =              325059              163670              753365             6867762
+<nlike>    =          37.32          18.65          86.44         786.37   (           3.11           3.11           3.20           3.28 per slice )
+log(Z)     =        -6457.63 +/-  0.20
+log(Z_1)   =        -6457.63 +/-  0.20 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |296436 |
+posteriors | 12177 |
+equals     |    25 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               13214
+nposterior =               12177
+nequals    =                  27
+nlike      =              363189              182446              841501             7668505
+<nlike>    =          38.13          18.78          88.14         800.74   (           3.18           3.13           3.26           3.34 per slice )
+log(Z)     =        -6398.17 +/-  0.18
+log(Z_1)   =        -6398.17 +/-  0.18 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |292296 |
+posteriors | 13178 |
+equals     |    28 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               14296
+nposterior =               13178
+nequals    =                  34
+nlike      =              402608              202170              933386             8499275
+<nlike>    =          39.42          19.72          91.89         830.77   (           3.28           3.29           3.40           3.46 per slice )
+log(Z)     =        -6350.97 +/-  0.18
+log(Z_1)   =        -6350.97 +/-  0.18 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |281596 |
+posteriors | 14179 |
+equals     |    29 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               15401
+nposterior =               14179
+nequals    =                  37
+nlike      =              444562              223019             1031432             9386974
+<nlike>    =          41.95          20.85          98.05         887.70   (           3.50           3.47           3.63           3.70 per slice )
+log(Z)     =        -6311.07 +/-  0.17
+log(Z_1)   =        -6311.07 +/-  0.17 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |285441 |
+posteriors | 15180 |
+equals     |    45 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               16481
+nposterior =               15180
+nequals    =                  38
+nlike      =              486905              244144             1130499            10286531
+<nlike>    =          42.34          21.12          99.07         899.56   (           3.53           3.52           3.67           3.75 per slice )
+log(Z)     =        -6281.22 +/-  0.16
+log(Z_1)   =        -6281.22 +/-  0.16 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |274150 |
+posteriors | 16181 |
+equals     |    45 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               17574
+nposterior =               16181
+nequals    =                  35
+nlike      =              531358              266453             1235106            11235142
+<nlike>    =          44.45          22.31         104.61         948.61   (           3.70           3.72           3.87           3.95 per slice )
+log(Z)     =        -6255.64 +/-  0.16
+log(Z_1)   =        -6255.64 +/-  0.16 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |275743 |
+posteriors | 17182 |
+equals     |    51 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               18662
+nposterior =               17182
+nequals    =                  51
+nlike      =              577281              289530             1343471            12214991
+<nlike>    =          45.92          23.08         108.37         979.85   (           3.83           3.85           4.01           4.08 per slice )
+log(Z)     =        -6235.52 +/-  0.16
+log(Z_1)   =        -6235.52 +/-  0.16 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |287187 |
+posteriors | 18183 |
+equals     |    64 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               19749
+nposterior =               18183
+nequals    =                  67
+nlike      =              624421              313231             1454995            13224165
+<nlike>    =          47.14          23.70         111.52        1009.17   (           3.93           3.95           4.13           4.20 per slice )
+log(Z)     =        -6220.04 +/-  0.16
+log(Z_1)   =        -6220.04 +/-  0.16 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |296156 |
+posteriors | 19184 |
+equals     |    72 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               20837
+nposterior =               19184
+nequals    =                  85
+nlike      =              673428              337925             1570710            14267911
+<nlike>    =          49.01          24.69         115.72        1043.75   (           4.08           4.12           4.29           4.35 per slice )
+log(Z)     =        -6207.22 +/-  0.15
+log(Z_1)   =        -6207.22 +/-  0.15 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |292105 |
+posteriors | 20185 |
+equals     |   103 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               21923
+nposterior =               20185
+nequals    =                  99
+nlike      =              723782              363307             1689659            15339348
+<nlike>    =          50.35          25.38         118.95        1071.44   (           4.20           4.23           4.41           4.46 per slice )
+log(Z)     =        -6196.34 +/-  0.15
+log(Z_1)   =        -6196.34 +/-  0.15 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |285817 |
+posteriors | 21186 |
+equals     |    97 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               23016
+nposterior =               21186
+nequals    =                 101
+nlike      =              775695              389570             1812054            16443129
+<nlike>    =          51.91          26.26         122.39        1103.78   (           4.33           4.38           4.53           4.60 per slice )
+log(Z)     =        -6187.43 +/-  0.16
+log(Z_1)   =        -6187.43 +/-  0.16 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |292827 |
+posteriors | 22187 |
+equals     |   151 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               24101
+nposterior =               22187
+nequals    =                 153
+nlike      =              828881              416540             1936203            17566366
+<nlike>    =          53.19          26.97         124.15        1123.24   (           4.43           4.50           4.60           4.68 per slice )
+log(Z)     =        -6179.73 +/-  0.15
+log(Z_1)   =        -6179.73 +/-  0.15 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |302100 |
+posteriors | 23188 |
+equals     |   210 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               25176
+nposterior =               23188
+nequals    =                 200
+nlike      =              882742              443503             2061403            18697339
+<nlike>    =          53.86          26.96         125.20        1130.97   (           4.49           4.49           4.64           4.71 per slice )
+log(Z)     =        -6173.57 +/-  0.16
+log(Z_1)   =        -6173.57 +/-  0.16 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |284296 |
+posteriors | 24189 |
+equals     |   187 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               26258
+nposterior =               24189
+nequals    =                 185
+nlike      =              938411              471473             2190021            19858078
+<nlike>    =          55.67          27.97         128.62        1160.74   (           4.64           4.66           4.76           4.84 per slice )
+log(Z)     =        -6168.12 +/-  0.16
+log(Z_1)   =        -6168.12 +/-  0.16 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |282839 |
+posteriors | 25190 |
+equals     |   242 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               27332
+nposterior =               25190
+nequals    =                 265
+nlike      =              994924              499796             2320354            21030455
+<nlike>    =          56.51          28.32         130.33        1172.38   (           4.71           4.72           4.83           4.88 per slice )
+log(Z)     =        -6163.35 +/-  0.16
+log(Z_1)   =        -6163.35 +/-  0.16 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |270050 |
+posteriors | 26191 |
+equals     |   247 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               28428
+nposterior =               26191
+nequals    =                 246
+nlike      =             1053838              529231             2455104            22243500
+<nlike>    =          58.91          29.44         134.75        1213.05   (           4.91           4.91           4.99           5.05 per slice )
+log(Z)     =        -6159.29 +/-  0.16
+log(Z_1)   =        -6159.29 +/-  0.16 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |262382 |
+posteriors | 27192 |
+equals     |   282 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               29518
+nposterior =               27192
+nequals    =                 287
+nlike      =             1113597              559017             2590402            23461145
+<nlike>    =          59.76          29.79         135.30        1217.64   (           4.98           4.96           5.01           5.07 per slice )
+log(Z)     =        -6155.77 +/-  0.16
+log(Z_1)   =        -6155.77 +/-  0.16 (still evaluating)
+
+
+
+___________________
+lives      |  1000 |
+phantoms   |272846 |
+posteriors | 28193 |
+equals     |   375 |
+‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+ncluster   =       1 /       1
+ndead      =               30622
+nposterior =               28193
+nequals    =                 399
+nlike      =             1175285              589595             2729574            24708306
+<nlike>    =          61.69          30.58         139.17        1247.16   (           5.14           5.10           5.15           5.20 per slice )
+log(Z)     =        -6152.90 +/-  0.17
+log(Z_1)   =        -6152.90 +/-  0.17 (still evaluating)
+
+
+
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+[2026-06-10T05:25:35.018] error: *** JOB 1747118 ON tri0063 CANCELLED AT 2026-06-10T05:25:35 DUE TO TIME LIMIT ***
+[2026-06-10T05:25:35.023] error: *** STEP 1747118.0 ON tri0063 CANCELLED AT 2026-06-10T05:25:35 DUE TO TIME LIMIT ***
+
+scontrol show job 1747118
+JobId=1747118 JobName=dy5-l-bbn
+   UserId=tanveerk(3142226) GroupId=tanveerk(3142226) MCS_label=N/A
+   Priority=1252270 Nice=0 Account=def-rhlozek QOS=normal
+   JobState=COMPLETING Reason=TimeLimit Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:15
+   RunTime=12:00:24 TimeLimit=12:00:00 TimeMin=N/A
+   SubmitTime=2026-06-09T15:32:13 EligibleTime=2026-06-09T15:32:13
+   AccrueTime=2026-06-09T15:32:13
+   StartTime=2026-06-09T17:25:11 EndTime=2026-06-10T05:25:35 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-06-09T17:25:11 Scheduler=Main
+   Partition=compute AllocNode:Sid=tri-login02:1040878
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=tri0063
+   BatchHost=tri0063
+   NumNodes=1 NumCPUs=192 NumTasks=192 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=192,mem=767000M,node=1,billing=192
+   AllocTRES=cpu=192,mem=767000M,node=1,billing=192
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=0 MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/scratch/tanveerk/bayesian-model-workspace/scripts/bash/nested/desy5_bbn_lcdm.sh
+   SubmitLine=SBATCH --comment /opt/slurm/bin/sbatch --export=NONE --get-user-env desy5_bbn_lcdm.sh --export=NONE --get-user-env desy5_bbn_lcdm.sh
+   WorkDir=/scratch/tanveerk/bayesian-model-workspace/scripts/bash/nested
+   Comment=/opt/slurm/bin/sbatch --export=NONE --get-user-env desy5_bbn_lcdm.sh
+   StdErr=
+   StdIn=/dev/null
+   StdOut=/scratch/tanveerk/bayesian-model-workspace/scripts/bash/nested/dy5-l-bbn-1747118.out
+   TresPerTask=cpu=1
+   MailUser=tanveer.karim@utoronto.ca MailType=INVALID_DEPEND,BEGIN,END,FAIL,REQUEUE,STAGE_OUT
+
+sacct -j 1747118
+JobID           JobName    Account    Elapsed  MaxVMSize     MaxRSS  SystemCPU    UserCPU ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- ---------- ---------- -------- 
+1747118       dy5-l-bbn def-rhloz+   12:00:24                        46:07.440 95-08:59:+      0:0 
+1747118.bat+      batch def-rhloz+   12:00:25          0     31524K  00:00.115  00:00.415     0:15 
+1747118.ext+     extern def-rhloz+   12:00:24                         00:00:00   00:00:00      0:0 
+1747118.0        python def-rhloz+   12:00:23          0   3385700K  46:07.325 95-08:59:+     0:15 
+
