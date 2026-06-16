@@ -2,3 +2,4 @@
 chains/*
 slurm-log/*
 test_output/*
+data/*
