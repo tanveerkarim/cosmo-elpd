@@ -5,7 +5,7 @@
 #SBATCH --ntasks=32              # Changed from ntasks-per-node to explicitly request 192 tasks
 #SBATCH --cpus-per-task=6
 #SBATCH --time=03:30:00            # Set to 30 mins for the debug trial
-#SBATCH --output=/scratch/tanveerk/bayesian-model-workspace/slurm-log/20260616/%x-%j.out
+#SBATCH --output=/scratch/tanveerk/cosmo-elpd/slurm-log/20260616/%x-%j.out
 #SBATCH --mail-user=tanveer.karim@utoronto.ca
 #SBATCH --mail-type=ALL
 
@@ -23,7 +23,7 @@ export OPENBLAS_NUM_THREADS=1
 export NUMEXPR_NUM_THREADS=1
 
 # 4. Critical environment overrides
-export COBAYA_PACKAGES_PATH="/scratch/tanveerk/cobaya-external"
+export COBAYA_PACKAGES_PATH="/scratch/tanveerk/cobaya-external-w0wacdm"
 export COBAYA_USE_FILE_LOCKING=false
 
 model="w0wacdm"
@@ -44,15 +44,15 @@ echo "=========================================="
 echo "Sweeping stale lock files..."
 
 find "/scratch/tanveerk/bayesian-model-workspace/chains/mcmc/${combo}/${model}/" -name "*.locked" -type f -delete
-find "/scratch/tanveerk/cobaya-external/data/planck_2018_CamSpec2021/" -name "*.locked" -type f -delete
+find "${COBAYA_PACKAGES_PATH}/data/planck_2018_CamSpec2021/" -name "*.locked" -type f -delete
 echo "Cleanup complete."
 
 # -------------------------------------------------
 # Launch MPI production run
 # -------------------------------------------------
 # 6. Launch the job using native SLURM srun
-echo "Starting PolyChord run at $(date)"
-srun python -m cobaya run "/scratch/tanveerk/bayesian-model-workspace/yaml/${combo}/${model}.yaml"
+echo "Starting MCMC run at $(date)"
+srun python -m cobaya run "/scratch/tanveerk/cosmo-elpd/yaml/${combo}/${model}.yaml"
 
 RUN_EXIT=$?
 

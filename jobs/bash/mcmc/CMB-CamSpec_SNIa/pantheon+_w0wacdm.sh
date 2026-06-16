@@ -5,7 +5,7 @@
 #SBATCH --ntasks=32              # Changed from ntasks-per-node to explicitly request 192 tasks
 #SBATCH --cpus-per-task=6
 #SBATCH --time=02:30:00            # Set to 30 mins for the debug trial
-#SBATCH --output=/scratch/tanveerk/bayesian-model-workspace/slurm-log/20260612/%x-%j.out
+#SBATCH --output=/scratch/tanveerk/cosmo-elpd/slurm-log/20260616/%x-%j.out
 #SBATCH --mail-user=tanveer.karim@utoronto.ca
 #SBATCH --mail-type=ALL
 
@@ -54,7 +54,7 @@ echo "Cleanup complete."
 # -------------------------------------------------
 # 6. Launch the job using native SLURM srun
 echo "Starting PolyChord run at $(date)"
-srun python -m cobaya run "/scratch/tanveerk/bayesian-model-workspace/yaml/${combo}/${model}.yaml"
+srun python -m cobaya run "/scratch/tanveerk/bayesian-model-workspace/yaml/${combo}/${model}.yaml" --resume
 
 RUN_EXIT=$?
 

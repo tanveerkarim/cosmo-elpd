@@ -72,4 +72,4 @@ sampler:
     proposal_scale: 1.9
     Rminus1_stop: 0.01
     Rminus1_cl_stop: 0.2
-output: /scratch/tanveerk/bayesian-model-workspace/chains/mcmc/CMB-CamSpec_DESI-DR2/lcdm/
+output: /scratch/tanveerk/cosmo-elpd/chains/mcmc/CMB-CamSpec_DESI-DR2/lcdm/
