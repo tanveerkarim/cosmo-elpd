@@ -2,10 +2,10 @@
 #SBATCH --account=def-rhlozek
 #SBATCH --job-name=mc-d+c-l
 #SBATCH --nodes=1
-#SBATCH --ntasks=32              # Changed from ntasks-per-node to explicitly request 192 tasks
-#SBATCH --cpus-per-task=6
-#SBATCH --time=03:30:00            # Set to 30 mins for the debug trial
-#SBATCH --output=/scratch/tanveerk/cosmo-elpd/slurm-log/20260616/%x-%j.out
+#SBATCH --ntasks=8              # Changed from ntasks-per-node to explicitly request 192 tasks
+#SBATCH --cpus-per-task=24
+#SBATCH --time=08:30:00            # Set to 30 mins for the debug trial
+#SBATCH --output=/scratch/tanveerk/cosmo-elpd/slurm-log/20260617/%x-%j.out
 #SBATCH --mail-user=tanveer.karim@utoronto.ca
 #SBATCH --mail-type=ALL
 
@@ -25,7 +25,7 @@ export NUMEXPR_NUM_THREADS=1
 # 4. Critical environment overrides
 export COBAYA_PACKAGES_PATH="/scratch/tanveerk/cobaya-external"
 export COBAYA_USE_FILE_LOCKING=false
-
+PROJECT_DIR="/scratch/tanveerk/cosmo-elpd"
 model="lcdm"
 combo="CMB-CamSpec_DESI-DR2"
 
@@ -43,7 +43,7 @@ echo "=========================================="
 
 echo "Sweeping stale lock files..."
 
-find "/scratch/tanveerk/cosmo-elpd/chains/mcmc/${combo}/${model}/" -name "*.locked" -type f -delete
+find "${PROJECT_DIR}/chains/mcmc/${combo}/${model}/" -name "*.locked" -type f -delete
 find "${COBAYA_PACKAGES_PATH}/data/planck_2018_CamSpec2021/" -name "*.locked" -type f -delete
 echo "Cleanup complete."
 
@@ -52,7 +52,7 @@ echo "Cleanup complete."
 # -------------------------------------------------
 # 6. Launch the job using native SLURM srun
 echo "Starting PolyChord run at $(date)"
-srun python -m cobaya run "/scratch/tanveerk/bayesian-model-workspace/yaml/${combo}/${model}.yaml"
+srun python -m cobaya run "${PROJECT_DIR}/config/${combo}/${model}.yaml" --resume
 
 RUN_EXIT=$?
 
