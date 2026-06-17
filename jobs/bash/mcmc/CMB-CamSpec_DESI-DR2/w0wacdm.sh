@@ -1,10 +1,10 @@
 #!/bin/bash
 #SBATCH --account=def-rhlozek
-#SBATCH --job-name=mc-c-p+-w
+#SBATCH --job-name=mc-d+c-w
 #SBATCH --nodes=1
-#SBATCH --ntasks=32              # Changed from ntasks-per-node to explicitly request 192 tasks
-#SBATCH --cpus-per-task=6
-#SBATCH --time=02:30:00            # Set to 30 mins for the debug trial
+#SBATCH --ntasks=8              # Changed from ntasks-per-node to explicitly request 192 tasks
+#SBATCH --cpus-per-task=24
+#SBATCH --time=05:30:00            # Set to 30 mins for the debug trial
 #SBATCH --output=/scratch/tanveerk/cosmo-elpd/slurm-log/20260616/%x-%j.out
 #SBATCH --mail-user=tanveer.karim@utoronto.ca
 #SBATCH --mail-type=ALL
@@ -23,38 +23,36 @@ export OPENBLAS_NUM_THREADS=1
 export NUMEXPR_NUM_THREADS=1
 
 # 4. Critical environment overrides
-export COBAYA_PACKAGES_PATH="/scratch/tanveerk/cobaya-external"
+export COBAYA_PACKAGES_PATH="/scratch/tanveerk/cobaya-external-w0wa"
 export COBAYA_USE_FILE_LOCKING=false
-
-SNIa="pantheon+"
-cModel="w0wacdm"
-combo="CMB-CamSpec_SNIa"
-model="${SNIa}_${cModel}"
+PROJECT_DIR="/scratch/tanveerk/cosmo-elpd"
+model="w0wacdm"
+combo="CMB-CamSpec_DESI-DR2"
 
 echo "=========================================="
 echo "Job started at $(date)"
 echo "Running on node(s): $SLURM_NODELIST"
 echo "Job ID: $SLURM_JOB_ID"
 echo "Model: $model"
+echo "Combo: $combo"
 echo "=========================================="
 
 # -------------------------------------------------
 # Optional cleanup of stale lock files
-# Only delete locks older than 30 minutes
 # -------------------------------------------------
 
 echo "Sweeping stale lock files..."
 
-find "/scratch/tanveerk/bayesian-model-workspace/chains/mcmc/${combo}/${model}/" -name "*.locked" -type f -delete
-find "/scratch/tanveerk/cobaya-external/data/planck_2018_CamSpec2021/" -name "*.locked" -type f -delete
+find "${PROJECT_DIR}/chains/mcmc/${combo}/${model}/" -name "*.locked" -type f -delete
+find "${COBAYA_PACKAGES_PATH}/data/planck_2018_CamSpec2021/" -name "*.locked" -type f -delete
 echo "Cleanup complete."
 
 # -------------------------------------------------
 # Launch MPI production run
 # -------------------------------------------------
 # 6. Launch the job using native SLURM srun
-echo "Starting PolyChord run at $(date)"
-srun python -m cobaya run "/scratch/tanveerk/bayesian-model-workspace/yaml/${combo}/${model}.yaml" --resume
+echo "Starting MCMC run at $(date)"
+srun python -m cobaya run "${PROJECT_DIR}/config/${combo}/${model}.yaml" --resume
 
 RUN_EXIT=$?
 

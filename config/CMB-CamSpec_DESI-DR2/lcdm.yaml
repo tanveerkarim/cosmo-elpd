@@ -1,0 +1,75 @@
+theory:
+  camb:
+    extra_args:
+      num_massive_neutrinos: 1
+      nnu: 3.046 # Based on the unimpeded paper
+
+      halofit_version: mead2016
+
+      lens_potential_accuracy: 4
+      lmax: 4000
+      lens_margin: 1250
+
+      AccuracyBoost: 1
+      lAccuracyBoost: 1
+      lSampleBoost: 1
+likelihood:
+  bao.desi_dr2: null
+  planck_2018_lowl.TT: null
+  planck_2018_lowl.EE: null
+  planck_2018_lensing.clik: null
+  planck_2018_highl_CamSpec2021.TTTEEE: null
+params:
+  logA:
+    prior: # Same as https://arxiv.org/pdf/2603.05472
+      min: 1.8
+      max: 4.0
+    latex: \log(10^{10} A_\mathrm{s})
+    drop: true
+    ref: 3.045
+  As:
+    value: 'lambda logA: 1e-10*np.exp(logA)'
+    latex: A_\mathrm{s}
+  ns:
+    prior:
+      min: 0.85
+      max: 1.1
+    ref: 0.9649
+    latex: n_\mathrm{s}
+  H0:
+    prior:
+      min: 50
+      max: 90
+    ref: 68.0
+    latex: H_0
+  ombh2:
+    prior:
+      min: 0.01
+      max: 0.04
+      ref: 0.02218
+    latex: \Omega_\mathrm{b} h^2
+  omch2:
+    prior:
+      min: 0.01
+      max: 0.30
+      ref: 0.12
+    latex: \Omega_\mathrm{c} h^2
+  omegam:
+    latex: \Omega_\mathrm{m}
+  mnu: 0.06
+  omega_de:
+    latex: \Omega_\Lambda
+  tau:
+    prior:
+      min: 0.01
+      max: 0.15
+      ref: 0.0544
+    latex: \tau_\mathrm{reio}
+  zrei:
+    latex: z_\mathrm{re}
+sampler:
+  mcmc:
+    proposal_scale: 1.9
+    Rminus1_stop: 0.01
+    Rminus1_cl_stop: 0.2
+output: /scratch/tanveerk/cosmo-elpd/chains/mcmc/CMB-CamSpec_DESI-DR2/lcdm/
